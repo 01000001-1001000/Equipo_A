@@ -1,0 +1,11 @@
+{
+  "FolderOrderSettings":[
+    {"name":"Objetos","order":6,"path":"folders/Objetos.yy",},
+    {"name":"Rooms","order":7,"path":"folders/Rooms.yy",},
+    {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
+  ],
+  "ResourceOrderSettings":[
+    {"name":"obj_camera","order":1,"path":"objects/obj_camera/obj_camera.yy",},
+    {"name":"spr_mansion_background","order":1,"path":"sprites/spr_mansion_background/spr_mansion_background.yy",},
+  ],
+}
