@@ -2,7 +2,7 @@
 
 > Un juego 2D pixel art de investigación, puzles y suspense para PC, hecho en GameMaker: eres un fantasma que no sabe por qué murió y puede viajar al pasado, cuando aún estaba vivo, para descubrirlo. Estado: 3 nov 2026, arrancando.
 
-**Equipo:** Salva Llácer Ivars (producto) · Iván Gómez Navarro (lead técnico) · Borja Albert Bataller (calidad) · Hugo Signes Sisternes (sistemas de juego) · Al Hayy Castellá García (diseño y pixel art). Detalle en docs/equipo.md.
+**Equipo:** Salva Llácer Ivars (producto) · Iván Gómez Navarro (diseño y pixel art) · Borja Albert Bataller (calidad) · Hugo Signes Sisternes (sistemas de juego) · Al Hayy Castellá García (lead técnico). Detalle en docs/equipo.md.
 
 ## El problema
 
