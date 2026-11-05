@@ -17,7 +17,9 @@ A continuación, se procederá a detallarlos uno a uno:
 
 Se emplea siempre que se cree un nuevo fichero o directorio en el espacio de trabajo del repositorio. 
 
-Se indica siempre con el prefijo `ADD` seguido de dos puntos y el mensaje del commit. Por ejemplo:
+Se indica siempre con el prefijo `ADD` seguido de dos puntos y el mensaje del commit. 
+
+Por ejemplo:
 
 ```Bash
 git commit -m "ADD: Creación del archivo style.css"
@@ -29,7 +31,9 @@ Cabe señalar que no se emplea este indicador cuando se adiciona contenido a un 
 
 Se emplea siembre que se haya de realizar cualquier cambio en el contenido del repositorio.
 
-Se indica siempre con el prefijo `MOD` seguido de dos puntos y el mensaje del commit. Por ejemplo:
+Se indica siempre con el prefijo `MOD` seguido de dos puntos y el mensaje del commit. 
+
+Por ejemplo:
 
 ```Bash
 git commit -m "MOD: Adición de la función cls() para el refresco de pantalla en el archivo main.c"
@@ -51,13 +55,15 @@ git commit -m "CORREC: Cambio de nombre del fichero index.html"
 git commit -m "CORREC: Eliminación de archivos innecesarios"
 ```
 
-Cabe señalar que no se debe de emplear para modificaciones naturales del contenido de un fichero como podría ser corregir un error semántico o modificar líneas de carácteres en un fichero.
+Cabe señalar que no se debe emplear para modificaciones naturales del contenido de un fichero como podría ser corregir un error semántico o modificar líneas de carácteres.
 
 ## Modificaciones a nivel de repositorio
 
 Este indicador está reservado para modificaciones a nivel de repositorio tales como renormalización, merges y demás acciones del mismo. No se puede emplear para ningún otro uso.
 
-Se indica siempre con el prefijo `BARE` seguido de dos puntos y el mensaje del commit. Por ejemplo:
+Se indica siempre con el prefijo `BARE` seguido de dos puntos y el mensaje del commit. 
+
+Por ejemplo:
 
 ```Bash
 git commit -m "BARE: Renormalización del repositorio"
