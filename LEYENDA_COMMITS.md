@@ -17,7 +17,7 @@ A continuación, se procederá a detallarlos uno a uno:
 
 Se emplea siempre que se cree un nuevo fichero o directorio en el espacio de trabajo del repositorio. 
 
-Se indica siempre con el prefijo 'ADD' seguido de dos puntos y el mensaje del commit. Por ejemplo:
+Se indica siempre con el prefijo `ADD` seguido de dos puntos y el mensaje del commit. Por ejemplo:
 
 ```Bash
 git commit -m "ADD: Creación del archivo style.css"
@@ -29,7 +29,7 @@ Cabe señalar que no se emplea este indicador cuando se adiciona contenido a un 
 
 Se emplea siembre que se haya de realizar cualquier cambio en el contenido del repositorio.
 
-Se indica siempre con el prefijo 'MOD' seguido de dos puntos y el mensaje del commit. Por ejemplo:
+Se indica siempre con el prefijo `MOD` seguido de dos puntos y el mensaje del commit. Por ejemplo:
 
 ```Bash
 git commit -m "MOD: Adición de la función cls() para el refresco de pantalla en el archivo main.c"
@@ -43,7 +43,7 @@ Este indicador se ha de emplear siempre que se modifique un fichero del reposito
 
 Este indicador se emplea para realizar correcciones a errores graves en alguno de los contenidos del repositorio. Por ejemplo para cambiar el nombre de un fichero o directorio o, inclusive, eliminar dicho fichero o directorio. 
 
-Se indica siempre con el prefijo 'CORREC' seguido de dos puntos y el mensaje del commit. Por ejemplo:
+Se indica siempre con el prefijo `CORREC` seguido de dos puntos y el mensaje del commit. Por ejemplo:
 
 ```Bash
 git commit -m "CORREC: Cambio de nombre del fichero index.html"
@@ -57,7 +57,7 @@ Cabe señalar que no se debe de emplear para modificaciones naturales del conten
 
 Este indicador está reservado para modificaciones a nivel de repositorio tales como renormalización, merges y demás acciones del mismo. No se puede emplear para ningún otro uso.
 
-Se indica siempre con el prefijo 'BARE' seguido de dos puntos y el mensaje del commit. Por ejemplo:
+Se indica siempre con el prefijo `BARE` seguido de dos puntos y el mensaje del commit. Por ejemplo:
 
 ```Bash
 git commit -m "BARE: Renormalización del repositorio"
