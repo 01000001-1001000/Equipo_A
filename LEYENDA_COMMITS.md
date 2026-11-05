@@ -47,7 +47,9 @@ Este indicador se ha de emplear siempre que se modifique un fichero del reposito
 
 Este indicador se emplea para realizar correcciones a errores graves en alguno de los contenidos del repositorio. Por ejemplo para cambiar el nombre de un fichero o directorio o, inclusive, eliminar dicho fichero o directorio. 
 
-Se indica siempre con el prefijo `CORREC` seguido de dos puntos y el mensaje del commit. Por ejemplo:
+Se indica siempre con el prefijo `CORREC` seguido de dos puntos y el mensaje del commit. 
+
+Por ejemplo:
 
 ```Bash
 git commit -m "CORREC: Cambio de nombre del fichero index.html"
